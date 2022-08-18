@@ -33,5 +33,5 @@ jobs:
         --platform ${{ steps.prepare.outputs.docker_platform }} \       
         --tag ${{ steps.prepare.outputs.docker_image }} \       
         --file . \
-        -- output type=output 
+        --output type=output 
         --push
